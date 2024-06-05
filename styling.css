@@ -1,0 +1,91 @@
+.banner{
+    background-color: rgb(170, 181, 182);
+    padding: 250px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.teacher-padding{
+    padding: 70px 0;
+}
+.card-body{
+    background-color: rgb(219, 206, 206);
+}
+/* Add this to your CSS file */
+@media (max-width: 768px) {
+    .teacher-padding {
+      padding: 20px;
+    }
+    .list-unstyled li {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .list-unstyled li img {
+      width: 40px;
+      height: 40px;
+    }
+    .list-unstyled li p {
+      font-size: 14px;
+    }
+  }
+  .image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #f5f5f5;
+  }
+  
+  .image-row img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 10px;
+  }
+  .image-row p{
+    
+    
+    align-items: center;
+    height: 100px;
+    background-color: #f5f5f5;
+  }
+  .client{
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+
+  #programs img{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Mobile-specific styles here */
+    .image-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .image-row img {
+      width: 20%; /* adjust the width to fit the mobile screen */
+      margin: 10px 0px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    h2, h3, h4 {
+      font-size: 1.2em; /* adjust font size for mobile */
+      line-height: 1.5;
+    }
+    .client-say-container p{
+      padding: 20px; /* adjust padding for mobile */
+    }
+    
+    .image-row {
+      margin: 20px; /* adjust margin for mobile */
+    }
+  }
